@@ -1,7 +1,2 @@
-// Public site settings. Add public links only; never put payment API keys here.
-window.HWB_CONFIG = {
-  draftMode: true,
-  donationUrl: '', // Your hosted HTTPS donation / checkout URL.
-  contactEmail: '', // Your public foundation email address.
-  logoUrl: 'assets/hwb-logo.png', // Approved first transparent version of concept 2.
-};
+// Public settings only. Never add bank details or secret API keys.
+window.HWB_CONFIG = {donationUrl: '', contactEmail: ''};

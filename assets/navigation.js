@@ -1,0 +1,1 @@
+document.querySelectorAll('#main-nav a').forEach(a=>a.addEventListener('click',()=>{document.querySelector('.menu-toggle').setAttribute('aria-expanded','false');document.querySelector('#main-nav').classList.remove('open');}));
